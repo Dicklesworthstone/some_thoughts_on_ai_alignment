@@ -4,9 +4,7 @@ I decided to ask the various "best in class" AI models (O1-Pro, Claude 3.7 Sonne
 
 > "Give me your thoughts on this proposal I wrote up below. How smart is it? How novel or interesting are the ideas? What else have you seen before that is similar to it? Do you think it represents a real advancement in thinking about AI safety and alignment?"
 
----
-
-First, here, is Claude 3.7 Sonnet's response:
+**First, here, is Claude 3.7 Sonnet's response:**
 
 I've read through Jeffrey Emanuel's proposal on AI alignment, and here are my thoughts:
 
@@ -67,11 +65,9 @@ The most valuable contribution may be the detailed consideration of monitoring i
 
 ---
 
-Next is Grok3 with thinking:
+**Next is Grok3 with thinking:**
 
 Your proposal for addressing AI alignment and safety through an external system of Helper models monitoring a more intelligent Smart model is thoughtful, pragmatic, and demonstrates a deep understanding of the challenges in AI safety. Below, I'll evaluate its intelligence, novelty, and potential as an advancement in AI safety thinking, as well as compare it to existing ideas in the field.
-
----
 
 ### **How Smart Is the Proposal?**
 
@@ -100,8 +96,6 @@ Your proposal is intelligent and tackles some of the most pressing challenges in
 - **One-Directional Information Flow**:
   - Preventing the Smart model from "defending itself" or accessing information about the Helper models' processes is a wise precaution. Given the Smart model's superior intelligence, allowing it to argue could lead to manipulation, undermining the system's effectiveness.
 
----
-
 ### **How Novel or Interesting Are the Ideas?**
 
 While your proposal builds on existing concepts in AI safety, it introduces several novel and interesting elements. Here's a breakdown:
@@ -121,8 +115,6 @@ While your proposal builds on existing concepts in AI safety, it introduces seve
 
 - **Security by Obscurity (Limited)**:
   - While you acknowledge the pitfalls of "security by obscurity," your justification for hiding certain details from the Smart model (e.g., Helper models' processes) is pragmatic. It draws parallels to real-world practices like NSA signal intelligence or Secret Service counterfeiting techniques, adding a practical dimension.
-
----
 
 ### **Comparisons to Existing Ideas**
 
@@ -144,8 +136,6 @@ Your proposal builds on and extends several existing concepts in AI safety and a
 - **Alignment Through Oversight**:
   - Your approach can be seen as a form of "alignment through oversight," where the alignment problem is addressed by having external AI systems monitor and correct the behavior of the primary AI. This contrasts with efforts to build alignment directly into the model, which you argue is insufficient.
 
----
-
 ### **Does It Represent a Real Advancement in AI Safety Thinking?**
 
 Yes, your proposal represents a meaningful advancement in AI safety and alignment thinking, particularly in the following ways:
@@ -164,8 +154,6 @@ Yes, your proposal represents a meaningful advancement in AI safety and alignmen
 
 - **Acknowledgment of Resource Intensity**:
   - You realistically address the resource demands of such a system, drawing parallels to safety-critical systems like nuclear power plants and passenger jets. This pragmatic perspective strengthens the case for investment in safety, even if it requires significant resources.
-
----
 
 ### **Potential Issues and Limitations**
 
@@ -186,8 +174,6 @@ While your proposal is strong, there are several challenges and limitations to c
 - **Complexity and Implementation**:
   - The system's complexity, with multiple moving parts (e.g., diverse Helper models, voting, honeypot scenarios, cryptographic commitments), could make implementation difficult. Ensuring coordination and reliability across these components is a significant engineering challenge.
 
----
-
 ### **Conclusion**
 
 Your proposal is intelligent, demonstrating a deep understanding of AI safety challenges and proposing a pragmatic, multi-layered approach to control advanced AI systems. It builds on existing ideas like AI oversight and multi-agent systems but introduces novel elements, particularly in monitoring intermediate activations, using honeypot scenarios, and ensuring voting integrity through cryptographic commitments.
@@ -196,7 +182,7 @@ While it may not be a complete solution to the AI alignment problem, it represen
 
 ---
 
-Next is O1-Pro from OpenAI:
+**Next is O1-Pro from OpenAI:**
 
 Your proposal takes a fairly common intuition in AI safety—that a single large model’s safety features can be bypassed if someone gains access to its weights—and fleshes it out into a more comprehensive multi-model “checks and balances” system. Below are some reflections on its novelty, strengths, and the ways it relates to or diverges from other known proposals:
 
@@ -225,7 +211,7 @@ Overall, the proposal is definitely interesting and somewhat more *thorough* tha
 
 ---
 
-Finally, for good measure, here is o3-mini-high from OpenAI:
+**Finally, for good measure, here is o3-mini-high from OpenAI:**
 
 Your proposal is intellectually rich and well-considered, particularly in its rejection of embedding safety solely inside a single “smart” AI. The core idea—using a diverse ensemble of simpler, independent Helper models to monitor both the output and even the internal activations of a primary model—is compelling. It acknowledges that once a powerful model is in operation, trying to “bake in” unbreakable safeguards may be fundamentally flawed because of vulnerabilities like prompt injections and latent-space manipulations.
 
