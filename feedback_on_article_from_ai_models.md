@@ -6,7 +6,7 @@ I decided to ask the various "best in class" AI models (O1-Pro, Claude 3.7 Sonne
 
 ---
 
-**First, here, is Claude 3.7 Sonnet's response:**
+**First, here is Claude 3.7 Sonnet's response:**
 
 I've read through Jeffrey Emanuel's proposal on AI alignment, and here are my thoughts:
 
