@@ -4,6 +4,8 @@ I decided to ask the various "best in class" AI models (O1-Pro, Claude 3.7 Sonne
 
 > "Give me your thoughts on this proposal I wrote up below. How smart is it? How novel or interesting are the ideas? What else have you seen before that is similar to it? Do you think it represents a real advancement in thinking about AI safety and alignment?"
 
+---
+
 **First, here, is Claude 3.7 Sonnet's response:**
 
 I've read through Jeffrey Emanuel's proposal on AI alignment, and here are my thoughts:
