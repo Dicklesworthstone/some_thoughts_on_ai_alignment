@@ -1,4 +1,4 @@
-# Feedback on Jeffrey Emanuel's AI Alignment Article from Leading Foundation Models as of 2/24/2025
+# Feedback on AI Alignment Article from Leading Foundation Models as of 2/24/2025
 
 I decided to ask the various "best in class" AI models (O1-Pro, Claude 3.7 Sonnet, and Grok3 with thinking) what they thought of my [proposal](https://github.com/Dicklesworthstone/some_thoughts_on_ai_alignment) for how to better control and align super-smart AI systems in the future. After all, who better to ask than the AIs themselves? Here was my prompt, used for all 3: 
 
